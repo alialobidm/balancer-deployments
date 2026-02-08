@@ -4,6 +4,7 @@
 
 [![NPM Package](https://img.shields.io/npm/v/@balancer-labs/v2-deployments.svg)](https://www.npmjs.com/package/@balancer-labs/v2-deployments)
 [![GitHub Repository](https://img.shields.io/badge/github-deployments-lightgrey?logo=github)](https://github.com/balancer-labs/balancer-v2-monorepo/tree/master/pkg/deployments)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falialobidm%2Fbalancer-deployments.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Falialobidm%2Fbalancer-deployments?ref=badge_shield)
 
 This package contains the addresses and ABIs of all Balancer V2 deployed contracts for Ethereum mainnet, Polygon, Arbitrum, Optimism, Gnosis, BSC and Avalanche, as well as various test networks. Each deployment consists of a deployment script (called 'task'), inputs (script configuration, such as dependencies), outputs (typically contract addresses), ABIs and bytecode files of related contracts.
 
@@ -270,3 +271,7 @@ Go to each deprecated deployment's readme file to learn more about why it is dep
 | V3 ERC4626 Cow Swap Fee Burner                      | [`20250507-v3-erc4626-cow-swap-fee-burner`](./v3/deprecated/20250507-v3-erc4626-cow-swap-fee-burner)     |
 | V3 Balancer Fee Burner                              | [`20250530-v3-balancer-fee-burner`](./v3/deprecated/20250530-v3-balancer-fee-burner)                     |
 | V3 Liquidity Bootstrapping Pool (V2)                | [`20250701-v3-liquidity-bootstrapping-pool-v2`](./v3/deprecated/20250701-v3-liquidity-bootstrapping-pool-v2) |
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falialobidm%2Fbalancer-deployments.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Falialobidm%2Fbalancer-deployments?ref=badge_large)
